@@ -8,5 +8,56 @@ public class Main {
         System.out.println("dog = " + dog);
         System.out.println("cat = " + cat);
         System.out.println("paper = " + paper);
+        // task2
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+
+        System.out.println("dog = " + dog);
+        System.out.println("cat = " + cat);
+        System.out.println("paper = " + paper);
+        //task 3
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+
+        System.out.println("dog = " + dog);
+        System.out.println("cat = " + cat);
+        System.out.println("paper = " + paper);
+        // task 4
+        var friend = 19;
+        System.out.println("friend = " + friend);
+        friend = friend + 2;
+        System.out.println("friend = " + friend);
+        friend = friend / 7;
+        System.out.println("friend = " + friend);
+        // task 5
+        var frog = 3.5;
+        System.out.println("frog = " + frog);
+        frog = frog * 10;
+        System.out.println("frog = " + frog);
+        frog = frog / 3.5;
+        System.out.println("frog = " + frog);
+        frog = frog + 4;
+        System.out.println("frog = " + frog);
+        // task 6
+        var boxer1Weight = 78.2;
+        var boxer2Weight = 82.7;
+        var totalWeight = boxer1Weight + boxer2Weight;
+        var weightDifference = boxer2Weight - boxer1Weight;
+        System.out.println("Общая масса двух бойцов: " + totalWeight + " кг");
+        System.out.println("Разница между массами бойцов: " + weightDifference + " кг");
+        // task 7
+        var remainder = boxer2Weight % boxer1Weight;
+        System.out.println("Остаток от деления между двумя весами: " + remainder);
+        // task 8
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+        var numberOfEmployees = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании — " + numberOfEmployees + " человек");
+        var additionalEmployees = 94;
+        var newNumberOfEmployees = numberOfEmployees + additionalEmployees;
+        var newTotalHours = newNumberOfEmployees * hoursPerEmployee;
+        System.out.println("Если в компании работает " + newNumberOfEmployees + " человек, то всего " + newTotalHours + " часов работы может быть поделено между сотрудниками");
     }
 }
